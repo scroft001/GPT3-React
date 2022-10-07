@@ -1,0 +1,68 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1279.32px;
+    height: 701.59px;
+}
+
+.header-content{
+    width: 779.29px;
+    height: 557.89px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header-heading h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 2rem;
+    
+}
+
+.header-description p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #81AFDD;
+    margin-bottom: 2rem;
+}
+
+
+
+.header-illustration{
+    width: 667.41px;
+    height: 701.59px;
+}
+
+.header-illustration img{
+    width: 100%;
+}
+
+.header-form button {
+    padding: 0.5rem 1rem;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    background: #FF4820;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
