@@ -42,8 +42,6 @@
     margin-bottom: 2rem;
 }
 
-
-
 .header-illustration{
     width: 667.41px;
     height: 701.59px;
@@ -84,4 +82,25 @@
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.header-signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+.header-signup img{
+    margin-right: 1rem;
+}
+
+.header-signup p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #FFFFFF;
 }

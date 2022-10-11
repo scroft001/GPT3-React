@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import ai from '../../assets/ai.png'
+import people from '../../assets/people.png'
 
 const Header = () => {
   return (
@@ -19,7 +20,8 @@ const Header = () => {
           </form>
         </div>
         <div className='header-signup'>
-
+          <img src={people} alt='people' />
+          <p>1.6000 people requested access to visit in the last 24 hours</p>
         </div>
       </div>
       <div className="header-illustration">
