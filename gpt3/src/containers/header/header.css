@@ -53,8 +53,27 @@
     width: 100%;
 }
 
+.header-form{
+    width: 100%;
+}
+
+.header-form form{
+    width: 100%;
+}
+.header-form form input{
+    width: calc(100% - 150px);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    background: #052D56;
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+    padding: 1rem 1rem;
+    color: #81AFDD;
+}
+
 .header-form button {
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     color: white;
     font-family: var(--font-family);
     font-weight: 500;

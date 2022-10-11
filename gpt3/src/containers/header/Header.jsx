@@ -14,9 +14,9 @@ const Header = () => {
         </div>
         <div className="header-form">
           <form>
-            <input type="text" className="header-form-input" placeholder="Your Email Address"/>
+            <input type="email" className="header-form-input" placeholder="Your Email Address"/>
+            <button type='button'>Get Started</button>
           </form>
-          <button type='button'>Get Started</button>
         </div>
         <div className='header-signup'>
 
