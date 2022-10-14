@@ -13,7 +13,18 @@ const WhatGPT3 = () => {
         <p>Explore The Library</p>
       </div>
       <div className='what-row-bottom'>
-        
+        <div className='what-card'>
+          <h2 className="what-heading">Chatbots</h2>
+          <p>We so opinion friends me message as delight. Whole front do of plate heard oh ought.</p>
+        </div>
+        <div className='what-card'>
+          <h2 className="what-heading">Knowledgebase</h2>
+          <p>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b</p>
+        </div>
+        <div className='what-card'>
+          <h2 className="what-heading">Education</h2>
+          <p>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b</p>
+        </div>
       </div>
     </div>
   )
