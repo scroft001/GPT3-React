@@ -1,4 +1,5 @@
 import React from 'react'
+import { Feature } from '../../components'
 import './whatGPT3.css'
 
 const WhatGPT3 = () => {
@@ -6,7 +7,8 @@ const WhatGPT3 = () => {
     <div className='what-container'>
       <div className='what-row-top'>
         {/* Todo: refactor as a feature component with props */}
-        <h2 className="what-heading">What is GPT-3</h2>
+        <Feature text={"What is GPT-3"} />
+        {/* <h2 className="what-heading">What is GPT-3</h2> */}
         <p>We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.</p>
       </div>
       <div className='what-row-middle'>
@@ -15,15 +17,15 @@ const WhatGPT3 = () => {
       </div>
       <div className='what-row-bottom'>
         <div className='what-card'>
-          <h2 className="what-heading">Chatbots</h2>
+          <Feature text={"Chatbots"} />
           <p>We so opinion friends me message as delight. Whole front do of plate heard oh ought.</p>
         </div>
         <div className='what-card'>
-          <h2 className="what-heading">Knowledgebase</h2>
+          <Feature text={"Knowledgebase"} />
           <p>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b</p>
         </div>
         <div className='what-card'>
-          <h2 className="what-heading">Education</h2>
+          <Feature text={"Education"} />
           <p>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b</p>
         </div>
       </div>

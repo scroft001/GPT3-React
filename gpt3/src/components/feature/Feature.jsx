@@ -1,10 +1,10 @@
 import React from 'react'
 import './feature.css';
 
-const Feature = () => {
+const Feature = (props) => {
   return (
-    <div>
-      Feature
+    <div className='what-heading'>
+      {props.text}
     </div>
   )
 }
