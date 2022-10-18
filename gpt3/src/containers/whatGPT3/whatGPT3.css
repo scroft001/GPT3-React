@@ -2,9 +2,9 @@
     background-color: #042C54;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 4rem;
     width: 1279.32px;
     height: 695px;
     margin: auto;
@@ -50,8 +50,9 @@
 .what-row-middle{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    width: 97%;
 }
 
 .what-row-middle h2{
@@ -65,6 +66,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    width: 50%;
 }
 
 .what-row-middle p{
@@ -74,4 +76,28 @@
     font-size: 16px;
     line-height: 30px;
     color: #FF8A71;
+    width: 20%;
+}
+
+.what-row-bottom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.what-card{
+    width: 25%;
+    margin: 1.5rem;
+}
+
+.what-card p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+color: #81AFDD;
 }
