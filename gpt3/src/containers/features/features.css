@@ -5,7 +5,10 @@
     align-items: flex-start;
     width: 1279.32px;
     height: 431px;
-    margin: 8rem auto;
+    margin: 0rem auto;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    
 }
 
 .features-column{
