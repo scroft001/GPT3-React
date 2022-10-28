@@ -9,7 +9,7 @@ import blog5 from '../../assets/blog05.png'
 const Blog = () => {
   return (
     <div className='blog-container' id='blog'>
-      <h2>A lot is happening, <br /> We are blogging about it.</h2>
+      <h2 className='gradient-text'>A lot is happening, <br /> We are blogging about it.</h2>
       <div className='blog-container-stories'>
         <div className="blog-story-left">
           <div className="blog-card-tall">
