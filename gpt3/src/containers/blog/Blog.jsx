@@ -26,27 +26,43 @@ const Blog = () => {
         <div className='blog-story-right'>
           <div className="blog-card">
               <img src={blog2} alt="face" />
-              <p className="blog-date">Sep 26, 2021</p>
-              <h2 className="blog-title">GPT-3 and Open  AI is the future. Let us exlore how it is?</h2>
+              <div className='title-section'>
+              <div>
+                <p className="blog-date">Sep 26, 2021</p>
+                <h2 className="blog-title">GPT-3 and Open  AI is the future. Let us exlore how it is?</h2>
+              </div>
               <p className="blog-read">Read Full Article</p>
+            </div>
           </div>
           <div className="blog-card">
             <img src={blog3} alt="link" />
-            <p className="blog-date">Sep 26, 2021</p>
-            <h2 className="blog-title">GPT-3 and Open  AI is the future. Let us exlore how it is?</h2>
-            <p className="blog-read">Read Full Article</p>
+            <div className='title-section'>
+              <div>
+                <p className="blog-date">Sep 26, 2021</p>
+                <h2 className="blog-title">GPT-3 and Open  AI is the future. Let us exlore how it is?</h2>
+              </div>
+              <p className="blog-read">Read Full Article</p>
+            </div>
           </div>
           <div className="blog-card">
             <img src={blog4} alt="numbers" />
-            <p className="blog-date">Sep 26, 2021</p>
-            <h2 className="blog-title">GPT-3 and Open  AI is the future. Let us exlore how it is?</h2>
-            <p className="blog-read">Read Full Article</p>
+            <div className='title-section'>
+              <div>
+                <p className="blog-date">Sep 26, 2021</p>
+                <h2 className="blog-title">GPT-3 and Open  AI is the future. Let us exlore how it is?</h2>
+              </div>
+              <p className="blog-read">Read Full Article</p>
+            </div>
           </div>
           <div className="blog-card">
             <img src={blog5} alt="warning" />
-            <p className="blog-date">Sep 26, 2021</p>
-            <h2 className="blog-title">GPT-3 and Open  AI is the future. Let us exlore how it is?</h2>
-            <p className="blog-read">Read Full Article</p>
+            <div className='title-section'>
+              <div>
+                <p className="blog-date">Sep 26, 2021</p>
+                <h2 className="blog-title">GPT-3 and Open  AI is the future. Let us exlore how it is?</h2>
+              </div>
+              <p className="blog-read">Read Full Article</p>
+            </div>
           </div>
         </div>
       </div>
