@@ -54,11 +54,21 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: #042C54;
+    
 }
 
 .blog-card-tall img{
     width: 100%;
+}
+
+.title-section{
+    background-color: #042C54;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
 }
 
 .blog-date{
@@ -68,7 +78,6 @@
     font-size: 11.649px;
     line-height: 35px;
     color: #FFFFFF;
-    padding: 0px 2rem;
 }
 
 .blog-title{
@@ -81,7 +90,12 @@
 }
 
 .blog-read{
-
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.649px;
+    line-height: 35px;
+    color: #FFFFFF;
 }
 
 

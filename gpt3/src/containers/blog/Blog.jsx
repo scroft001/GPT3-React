@@ -14,9 +14,13 @@ const Blog = () => {
         <div className="blog-story-left">
           <div className="blog-card-tall">
             <img src={blog1} alt="tunnel" />
-            <p className="blog-date">Sep 26, 2021</p>
-            <h2 className="blog-title">GPT-3 and Open  AI is the future. Let us exlore how it is?</h2>
-            <p className="blog-read">Read Full Article</p>
+            <div className='title-section'>
+              <div>
+                <p className="blog-date">Sep 26, 2021</p>
+                <h2 className="blog-title">GPT-3 and Open  AI is the future. Let us exlore how it is?</h2>
+              </div>
+              <p className="blog-read">Read Full Article</p>
+            </div>
           </div>
         </div>
         <div className='blog-story-right'>
