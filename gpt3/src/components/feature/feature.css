@@ -17,3 +17,9 @@
     height: 3px;
     background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
 }
+
+@media screen and (max-width: 550px) {
+    .what-heading{
+        width: 100%;
+    }
+}

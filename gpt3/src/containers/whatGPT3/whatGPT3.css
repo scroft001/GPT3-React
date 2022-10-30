@@ -101,3 +101,42 @@ line-height: 30px;
 
 color: #81AFDD;
 }
+
+@media screen and (max-width: 1050px) {
+    .what-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .what-container{
+        height: 100%;
+    }
+    .what-row-top{
+        flex-direction: column;
+    }
+    .what-row-top p{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .what-row-middle{
+        width: 100%;
+    }
+    .what-row-middle h2{
+        font-size: 28px;
+        width: 65%;
+    }
+    .what-row-bottom{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .what-card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .what-heading{
+        width: 100%;
+    }
+}
