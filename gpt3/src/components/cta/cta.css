@@ -13,10 +13,6 @@
     border-radius: 10.7236px;
 }
 
-.cta-text{
-    
-}
-
 .cta-text p{
     font-family: 'Manrope';
     font-style: normal;
@@ -49,3 +45,25 @@
     line-height: 30px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1050px) {
+    
+ }
+ 
+ @media screen and (max-width: 700px) {
+    .cta-container{
+        width: 100%;
+        margin: 2rem;
+        flex-direction: column;
+        height: 100%;
+        padding: 1.5rem;
+        text-align: center;
+    }
+    .cta-button{
+        padding: 1rem 2rem;
+    }
+ }
+ 
+ @media screen and (max-width: 550px) {
+     
+ }
