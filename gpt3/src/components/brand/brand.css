@@ -5,8 +5,32 @@
     justify-content: center;
     align-items: center;
     margin: 2.5rem;
+    width: 100%;
 }
 
 .brand-row img{
     padding: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+   .brand-row{
+    margin: 1.5rem;
+    width: 95%;
+   }
+}
+
+@media screen and (max-width: 700px) {
+    .brand-row{
+        margin: 1rem;
+    }
+    .brand-row img{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .brand-row img{
+        padding: .5rem;
+        width: 20%;
+    }
 }
