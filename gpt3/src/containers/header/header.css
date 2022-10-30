@@ -104,3 +104,44 @@
     line-height: 38px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1050px) {
+    .header-container{
+        width: 100%;
+        padding: 2rem;
+    }
+    .header-content{
+        width: 50%;
+    }
+    .header-illustration{
+        width: 45%;
+    }
+    .header-heading h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .header-description p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header-content{
+        width: 100%;
+    }
+
+    .header-illustration{
+        display: none;
+    }
+    .header-heading h1{
+        font-size: 55px;
+        line-height: 65px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header-heading h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
