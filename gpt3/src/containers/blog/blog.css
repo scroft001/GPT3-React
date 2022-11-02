@@ -63,9 +63,13 @@
 @media screen and (max-width: 700px){
     .blog-container{
         margin: 2rem;
+        width: 90%;
     }
     .gpt3__blog-container_groupB{
         display: flex;
         flex-direction: column;
+    }
+    .gpt3__blog-container_groupA .gpt3__blog-container_article{
+        width: 100%;
     }
 }
