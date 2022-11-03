@@ -12,7 +12,7 @@ const Footer = () => {
       <div className='footer-content'>
         <div className="logo">
           <img src={logo} alt='logo' />
-          <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
+          <p>Crechterwoord K12 182 DK <br />Alknjkcb, All Rights Reserved</p>
         </div>
         <div className="links">
           <h3>Links</h3>
@@ -21,15 +21,15 @@ const Footer = () => {
           <p>Counters</p>
           <p>Contact</p>
         </div>
-        <div className="company">
+        <div className="links">
           <h3>Company</h3>
           <p>Terms & Conditions</p>
           <p>Privacy Policy</p>
           <p>Contact</p>
           </div>
-        <div className="getInTouch">
+        <div className="links">
           <h3>Get in touch</h3>
-          <p>Crechterwoord K12 182 DK Alknjkcb</p>
+          <p>Crechterwoord K12 <br /> 182 DK Alknjkcb</p>
           <p>085-132567</p>
           <p>info@payme.net</p>
         </div>
