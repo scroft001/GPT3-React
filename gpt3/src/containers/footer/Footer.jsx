@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <h2 className='gradient'>Do you want to step in to the future before others</h2>
-      <div className='btn'>
-
-      </div>
+      <p className="btn">
+        Request Early Access
+      </p>
       <div className='footer-content'>
         <div className="logo">
           <img src={logo} alt='logo' />

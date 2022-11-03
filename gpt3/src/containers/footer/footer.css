@@ -3,3 +3,35 @@
     background-color: #031B34;
     padding: 8rem;
 }
+
+.footer-container .gradient{
+    width: 80%;
+    margin: auto;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    /* or 121% */
+    
+    text-align: center;
+    letter-spacing: -0.04em;
+    
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.btn{
+    margin: auto;
+    border: 1px solid #ffffff;
+    width: 218px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
